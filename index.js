@@ -20,6 +20,7 @@ function calculatesFarePrice(start, destination){
   else if ((Math.abs(start - destination)*264)>400 && (Math.abs(start - destination)*264)<2001){
     return (0.02*(Math.abs(start - destination)*264 - 400));
   }
-  else if(((Math.abs(start - destination)*264)>2000 && Math.abs(start - destination)*264)<2501))
+  else if ((Math.abs(start - destination)*264)>2000 && (Math.abs(start - destination)*264)<2501){
   return 25;
+  }
 }
